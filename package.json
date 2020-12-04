@@ -2,26 +2,32 @@
   "name": "@andgohq/eslint-config-ts",
   "version": "1.0.0",
   "description": "A shared Eslint config",
-  "main": ".eslintrc.js",
-  "scripts": {
-  },
+  "main": "index.js",
+  "scripts": {},
   "repository": "git://github.com/andgohq/eslint-config-ts.git",
-  "keywords": ["eslint", "eslint-config", "typescript"],
+  "prettier": "@andgohq/prettier-config",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
   "author": "ANDGO, Inc.",
   "license": "MIT",
   "homepage": "https://github.com/andgohq/eslint-config-ts#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint-config-prettier": "^6.15.0"
+  },
   "devDependencies": {
+    "@andgohq/prettier-config": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.2.0"
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.9.0",
-    "@typescript-eslint/parser": "^4.9.0",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.2.0"
+    "@typescript-eslint/eslint-plugin": "^4.9.0"
   }
 }
