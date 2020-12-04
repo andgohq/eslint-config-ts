@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm install --save-dev @andgohq/eslint-config
+npm install --save-dev @andgohq/eslint-config-ts
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install --save-dev @andgohq/eslint-config
 In eslint config,
 
 ```json
-  "extends": "@andgohq/eslint-config"
+  "extends": "@andgohq/eslint-config-ts"
 ```
 
 See <https://eslint.org/docs/developer-guide/shareable-configs>
