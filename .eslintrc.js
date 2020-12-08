@@ -64,6 +64,10 @@ module.exports = {
         selector: 'property',
         format: null,
       },
+      {
+        selector: 'typeProperty',
+        format: ['camelCase', 'UPPER_CASE'],
+      },
       { selector: 'parameter', format: ['camelCase'], leadingUnderscore: 'allow', trailingUnderscore: 'allow' },
       {
         selector: 'variable',
