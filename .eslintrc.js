@@ -53,6 +53,11 @@ module.exports = {
         format: ['PascalCase'],
       },
       {
+        selector: 'classMethod',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
+      {
         selector: 'typeAlias',
         format: ['PascalCase'],
       },
