@@ -8,6 +8,5 @@
   "editor.formatOnSave": true,
   "eslint.debug": false,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.suggest.autoImports": false,
-  "prettier.disableLanguages": ["markdown"]
+  "typescript.suggest.autoImports": false
 }
