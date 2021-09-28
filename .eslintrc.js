@@ -10,10 +10,9 @@ module.exports = {
     // fundamental pack which does not include type checking
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
-    // disable check rules which is done by typescript
-    'prettier/@typescript-eslint',
+    // turn off all rules that are unnecessary or might conflict with Prettier
+    'prettier',
   ],
-  plugins: ['@typescript-eslint'],
   overrides: [
     {
       files: ['*.js'],
