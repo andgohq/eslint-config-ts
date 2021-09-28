@@ -1,5 +1,6 @@
 import PrettierConfig from '@andgohq/prettier-config';
 
+// eslint-disable-next-line @typescript-eslint/naming-convention
 let PascalCase = 'test';
 
 const NAME = 'test';
