@@ -1,3 +1,5 @@
+This product is deprecated.
+
 # A shared Eslint config
 
 ## Installation
